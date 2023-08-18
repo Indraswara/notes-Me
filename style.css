@@ -73,6 +73,7 @@ body{
     position: absolute; 
     bottom: 20px;
     right: 20px;
+    cursor: pointer;
 }
 
 .notes-container{
@@ -83,5 +84,4 @@ body{
     space: 100px;
     width: 75vw;
     margin: 20px 0; 
-    border: 1px solid red;
 }
