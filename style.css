@@ -57,4 +57,12 @@
     margin: 20px 0; 
     outline: none; 
     border-radius: 10px;
+
+}
+
+.input-box img{
+    width: 25px; 
+    position: absolute; 
+    bottom: 20px;
+    right: 20px;
 }
