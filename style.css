@@ -1,0 +1,41 @@
+
+.container{
+    width: 100%;
+    min-height: 100vh; 
+    padding-top: 4%; 
+    padding-left: 10%; 
+    background: linear-gradient(135deg, #cf9aff, #95c0ff);
+    color: #fff;
+
+}
+
+.container h1 {
+    display: flex; 
+    align-items: center;
+    font-size: 3rem;
+    font-weight: 600;
+}
+
+.container h1 img{
+    width: 60px; 
+}
+
+.container button img{
+    width: 20px;
+    margin-right: 8px;
+}
+
+.container button{
+
+    display: flex; 
+    align-items: center;
+    background: linear-gradient(#9418fd, #571094); 
+    color: #fff;
+    font-size: 16px;
+}
+
+.container button:hover{
+    background: linear-gradient(#571094, #9418fd); 
+    color: #fff;
+    scale: 1.15;
+}
