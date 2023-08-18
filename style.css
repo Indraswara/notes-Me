@@ -1,10 +1,18 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
 
+body{
+    background: linear-gradient(135deg, #cf9aff, #95c0ff);
+}
 .container{
     width: 100%;
     min-height: 100vh; 
     padding-top: 4%; 
     padding-left: 10%; 
-    background: linear-gradient(135deg, #cf9aff, #95c0ff);
     color: #fff;
 
 }
@@ -65,4 +73,15 @@
     position: absolute; 
     bottom: 20px;
     right: 20px;
+}
+
+.notes-container{
+    display: flex; 
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin: 0 auto;
+    space: 100px;
+    width: 75vw;
+    margin: 20px 0; 
+    border: 1px solid red;
 }
